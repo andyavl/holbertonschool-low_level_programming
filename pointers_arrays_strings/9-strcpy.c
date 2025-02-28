@@ -4,6 +4,7 @@
  * *_strcpy - copy source to a destination
  * @dest: destination
  * @src: source
+ * Return: returns copy
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -12,5 +13,5 @@ char *_strcpy(char *dest, char *src)
 	for (ln = 0; src[ln] != '\0'; ln++)
 	dest[ln] = src[ln];
 
-	return(dest);
+	return (dest);
 }
