@@ -9,7 +9,7 @@ char *cap_string(char *s)
 {
 	char az, azU;
 	char sep[] = {' ', '\t', '\n', ',', ';', '.',
-					'!', '?', '"', '(', ')', '{', '}'};
+					'!', '?', '"', '(', ')', '{', '}', '\0'};
 	int i, j;
 
 	for (azU = 'A', az = 'a'; az <= 'z'; azU++, az++)
