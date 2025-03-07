@@ -4,9 +4,11 @@
 /**
  * main - a program that names itself
  * Return: returns 0;
+ * @argc: amount command line elements
+ * @argv: string of command line elements
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
