@@ -20,8 +20,8 @@ int _sqrt_recursion(int n)
  */
 int _squarert(int n, int s)
 {
-	if(n > s / 2)
-		return(-1);
+	if (n > s / 2)
+		return (-1);
 	else if (n * n == s)
 		return (n);
 	return (_squarert(n + 1, s));
