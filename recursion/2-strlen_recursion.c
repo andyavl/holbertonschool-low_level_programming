@@ -2,7 +2,8 @@
 
 /**
  * _strlen_recursion - a function that returns length of string
- * @s: string to print
+ * @s: string
+ * Return: returns lenght
  */
 
 int _strlen_recursion(char *s)
@@ -14,5 +15,5 @@ int _strlen_recursion(char *s)
 		c++;
 		c = c + _strlen_recursion(s + 1);
 	}
-	return(c);
+	return (c);
 }
