@@ -3,7 +3,7 @@
 
 /**
  * main - a program that multiplies with its arguments
- * Return: returns 0;
+ * Return: returns 1 if not two arguments;
  * @argc: amount command line elements
  * @argv: a pointer to string of command line elements
  */
