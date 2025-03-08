@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - a program that prints the number of arguments
+ * main - a program that prints all arguments it receives
  * Return: returns 0;
  * @argc: amount command line elements
  * @argv: a pointer to string of command line elements
