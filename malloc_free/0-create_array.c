@@ -6,7 +6,7 @@
  * Return: eturn NULL if size if 0
  * @size: size of array
  * @c: character
- * */
+ */
 
 char *create_array(unsigned int size, char c)
 {
@@ -21,5 +21,5 @@ char *create_array(unsigned int size, char c)
 	for (i = 0; i < size; i++)
 		arr[i] = c;
 
-	return(arr);
+	return (arr);
 }
