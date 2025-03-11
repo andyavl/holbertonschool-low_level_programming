@@ -3,7 +3,7 @@
 
 /**
  * str_concat - function that concatenates two strings
- * Return: Return NULL if str is NULL or size is 0
+ * Return: Return NULL if fuction fails
  * @s1: 1st string
  * @s2: 2nd string
  */
