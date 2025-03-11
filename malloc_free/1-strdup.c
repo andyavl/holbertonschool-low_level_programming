@@ -3,7 +3,7 @@
 
 /**
  * _strdup - function that duplicates a string
- * Return: eturn NULL if size if 0
+ * Return: Return NULL if str is NULL or size is 0
  * @str: string to duplicate
  */
 
