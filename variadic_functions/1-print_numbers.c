@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * sum_them_all - sums all arguments
+ * print_numbers - prints arguments
  * @n: numbers
- * Return: sum
+ * @separator: char to print in between numbers
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
