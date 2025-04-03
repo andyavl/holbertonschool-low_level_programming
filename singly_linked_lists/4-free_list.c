@@ -5,11 +5,11 @@
  * *free_list - free a list
  * @head: pointer to head node
  */
-void free_list(list_t *head);
+void free_list(list_t *head)
 {
 	list_t *tmp;
 
-	while (*head)
+	while (head)
 	{
 		tmp = head->next;
 		free(head->str);
