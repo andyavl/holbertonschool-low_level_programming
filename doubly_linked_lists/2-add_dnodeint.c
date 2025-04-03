@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * dlistint_len - return number of elements of the list
+ * add_dnodeint - adds a new node
  * @head: double pointer to head
  * @n: number to add to node
- * Return: amount of elements
+ * Return: new node
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
